@@ -1,0 +1,28 @@
+.nest {
+    padding: 20px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.about {
+    padding: 10px;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social {
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+
+.login {
+    padding: 10px;
+}
