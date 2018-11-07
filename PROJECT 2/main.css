@@ -26,3 +26,69 @@ section {
 .login {
     padding: 10px;
 }
+
+header {
+    background-image: url(https://ucarecdn.com/eb6e85ad-105d-4367-89dd-4766d7ac9d14/-/crop/5100x2870/0,216/-/preview/-/resize/1680x/image.jpg);
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 10px white;
+    margin: 20px 50px;
+    position: relative;
+    background-position: center;
+}
+
+
+
+.arrows {
+    position: absolute;
+    width: 40px;
+}
+
+#left-arrow {
+    top: 200px;
+    left: -10px;
+}
+
+#right-arrow {
+    top: 200px;
+    right: -10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.gallery img {
+    height: 200px;
+    width: 300px;
+    margin: 2% 0;
+    align-self: center;
+}
+
+
+
+.view {
+
+    display: flex;
+    justify-content: center;
+    padding: 10px 80px 10px;
+    background-image: url(assets/textures/az_subtle.png);
+    background-color: lightgrey;
+    background-blend-mode: multiply;
+    color: white;
+    text-decoration: none;
+    border: 1px solid red;
+    
+    
+}
+
+.view:hover {
+    background-color: #ddd;
+}
