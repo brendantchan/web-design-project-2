@@ -84,11 +84,45 @@ h2 {
     background-blend-mode: multiply;
     color: white;
     text-decoration: none;
-    border: 1px solid red;
+    width: 100px;
+    margin-left: 45%;
+    
     
     
 }
 
 .view:hover {
     background-color: #ddd;
+}
+
+.bird {
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.bar {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+}
+
+.nestfooter {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.looking {
+    display: flex;
+    justify-content: start;
+}
+
+.vcd {
+    display: flex;
+    justify-content: center;
 }
