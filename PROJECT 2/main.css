@@ -2,21 +2,22 @@
     padding: 20px;
 }
 
-section {
+.topleft {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    float: left;
 }
 
 nav {
     align-items: center;
+    margin-bottom: 3%;
 }
 
 .about {
     padding: 10px;
 }
 
-.right {
+.topright {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -85,12 +86,13 @@ h2 {
     justify-content: center;
     padding: 10px 80px 10px;
     background-image: url(assets/textures/az_subtle.png);
-    background-color: lightgrey;
+    background-color: darkgrey;
     background-blend-mode: multiply;
     color: white;
     text-decoration: none;
     width: 100px;
     margin-left: 45%;
+    margin-bottom: 2%;
     
     
     
@@ -116,8 +118,10 @@ h2 {
 }
 
 footer {
+    display: flex;
+    justify-content: space-between;
     background-image: url(assets/textures/az_subtle.png);
-    background-color: lightgrey;
+    background-color: silver;
     background-blend-mode: multiply;
     padding-bottom: 100px;
 }
@@ -130,33 +134,39 @@ footer {
     margin-right: 79%;
 }
 
-
-
 .search {
-    
+    display: flex;
+    align-items: flex-start;
     margin-right: 30%;
     padding: 0px;
     background-color: white;
     margin-left: .5%;
     
+}
+
+.searchtext {
     
+    margin-right: 75%;
+    color: grey;
 }
 
 .zoom {
-    width: 5%;
-    padding: 5px;
+    width: 50%;
+    padding: 10px;
+    
 }
 
 .leftcolumn {
     float: left;
-    border: solid red 1px;
+    
 }
 
 .footermiddle {
     float: left;
     flex-direction: column;
+    align-items: flex-start;
     width: 30%;
-    border: solid red 1px;
+    
 }
 
 
@@ -164,12 +174,13 @@ footer {
     display: flex;
     flex-flow: row wrap;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 .minigallery img {
     padding: 5px;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
 }
 
 .pictures {
@@ -181,6 +192,17 @@ body {
     background-color: lightgray;
 }
 
-.viewgallery {
-    border: solid red 1px;
+.footercontainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+.findwho, .major {
+    color:white;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
 }
