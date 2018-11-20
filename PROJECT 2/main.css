@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'museo';
+    src: url('assets/fonts/museo/museo-300-webfont.woff') format('woff');
+}
+
 .nest {
     padding: 20px;
 }
@@ -66,19 +71,26 @@ header {
 
 h2 {
     text-align: center;
+    font-family: 'museo';
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 
 .gallery {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .gallery img {
-    height: 200px;
-    width: 300px;
-    margin: 2% 0;
+    width: 40vh;
+    height: 30vh;
     align-self: center;
+    margin-bottom: 15px;
+    
 }
 
 
@@ -118,6 +130,14 @@ h2 {
     padding: 10px;
     background-color: gray;
     color: white;
+    font-family: 'museo';
+}
+
+.small {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
 }
 
 footer {
@@ -127,6 +147,10 @@ footer {
     background-color: silver;
     background-blend-mode: multiply;
     padding-bottom: 60px;
+}
+
+.looking {
+    font-family: 'museo';
 }
 
 .nestfooter {
@@ -151,6 +175,7 @@ footer {
     
     margin-right: 75%;
     color: grey;
+    font-family: 'museo';
 }
 
 .zoom {
@@ -169,6 +194,7 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     width: 30%;
+    font-family: 'museo';
     
 }
 
@@ -208,6 +234,7 @@ body {
 a {
     text-decoration: none;
     color: grey;
+    font-family: 'museo';
 }
 
 .overlay {
@@ -220,10 +247,14 @@ a {
 }
 
 .student {
-    display: grid;
-    grid-column-start: 10;
-    grid-column-end: 13;
-    grid-row-start: 11;
-    grid-row-end: 13;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
     color: white;
+    font-family: 'museo';
+    font-size: 20px;
+}
+
+.viewgallery {
+    font-family: 'museo';
 }
